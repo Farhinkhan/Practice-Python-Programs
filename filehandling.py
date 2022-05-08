@@ -1,0 +1,12 @@
+f=open("Myfirstfile.txt","w")
+x=input("Enter a string : ")
+y=input("Enter a string : ")
+f.write(x)
+#f.write("\n")
+f.write("\n" + y)
+f.close()
+
+f=open("Myfirstfile.txt","r")
+x=f.read()
+print(x)
+f.close()
